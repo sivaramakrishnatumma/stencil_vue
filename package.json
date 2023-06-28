@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "vue-library": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "lerna": "^7.1.1",
+    "typescript": "^5.1.5"
+  }
+}
